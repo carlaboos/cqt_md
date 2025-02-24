@@ -1,0 +1,343 @@
+
+General Linear Model for Factor 1:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Q("Factor 1")   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     12.96
+Date:                Mon, 24 Feb 2025   Prob (F-statistic):           1.39e-38
+Time:                        03:10:16   Log-Likelihood:                -15397.
+No. Observations:                6005   AIC:                         3.083e+04
+Df Residuals:                    5986   BIC:                         3.096e+04
+Df Model:                          18                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================
+                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------
+Intercept                                                0.9155      0.148      6.184      0.000       0.625       1.206
+C(ConceptualQuestionType)[T.Causal_antecedent]          -0.5636      0.229     -2.458      0.014      -1.013      -0.114
+C(ConceptualQuestionType)[T.Causal_consequence]         -1.2344      0.260     -4.749      0.000      -1.744      -0.725
+C(ConceptualQuestionType)[T.Concept_completion]         -1.6815      0.209     -8.027      0.000      -2.092      -1.271
+C(ConceptualQuestionType)[T.Debate]                     -1.1925      0.196     -6.088      0.000      -1.577      -0.808
+C(ConceptualQuestionType)[T.Definition]                 -1.3051      0.397     -3.287      0.001      -2.083      -0.527
+C(ConceptualQuestionType)[T.Description]                -1.1386      0.260     -4.373      0.000      -1.649      -0.628
+C(ConceptualQuestionType)[T.Directional]                -1.7049      0.303     -5.631      0.000      -2.299      -1.111
+C(ConceptualQuestionType)[T.Empowerment]                 0.3932      0.309      1.274      0.203      -0.212       0.998
+C(ConceptualQuestionType)[T.Experience]                 -0.8654      0.335     -2.586      0.010      -1.521      -0.209
+C(ConceptualQuestionType)[T.Forecast]                   -1.8241      0.333     -5.471      0.000      -2.478      -1.171
+C(ConceptualQuestionType)[T.Goal_orientation]           -0.1531      0.342     -0.447      0.655      -0.824       0.518
+C(ConceptualQuestionType)[T.Instrumental_Procedural]    -1.2329      0.219     -5.640      0.000      -1.661      -0.804
+C(ConceptualQuestionType)[T.Personal_Practices]         -2.3145      0.277     -8.360      0.000      -2.857      -1.772
+C(ConceptualQuestionType)[T.Purpose]                    -0.5226      0.420     -1.243      0.214      -1.347       0.301
+C(ConceptualQuestionType)[T.Suggestion]                 -1.2810      0.229     -5.606      0.000      -1.729      -0.833
+C(ConceptualQuestionType)[T.Yes_No_factual]             -1.0573      0.182     -5.809      0.000      -1.414      -0.701
+C(ConceptualQuestionType)[T.Yes_No_non-factual]         -0.1789      0.177     -1.008      0.313      -0.527       0.169
+C(ConceptualQuestionType)[T.Yes_No_personal]            -1.3628      0.270     -5.045      0.000      -1.892      -0.833
+==============================================================================
+Omnibus:                     4107.245   Durbin-Watson:                   1.893
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            67987.356
+Skew:                           3.095   Prob(JB):                         0.00
+Kurtosis:                      18.277   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+ANOVA results:
+                                 sum_sq      df          F        PR(>F)
+C(ConceptualQuestionType)   2310.786803    18.0  12.958262  1.394237e-38
+Residual                   59303.092279  5986.0        NaN           NaN
+
+General Linear Model for Factor 2:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Q("Factor 2")   R-squared:                       0.032
+Model:                            OLS   Adj. R-squared:                  0.029
+Method:                 Least Squares   F-statistic:                     11.00
+Date:                Mon, 24 Feb 2025   Prob (F-statistic):           9.52e-32
+Time:                        03:10:16   Log-Likelihood:                -19570.
+No. Observations:                6005   AIC:                         3.918e+04
+Df Residuals:                    5986   BIC:                         3.931e+04
+Df Model:                          18                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================
+                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------
+Intercept                                                1.7572      0.297      5.923      0.000       1.176       2.339
+C(ConceptualQuestionType)[T.Causal_antecedent]          -1.8805      0.460     -4.092      0.000      -2.781      -0.980
+C(ConceptualQuestionType)[T.Causal_consequence]         -1.8148      0.521     -3.484      0.000      -2.836      -0.794
+C(ConceptualQuestionType)[T.Concept_completion]         -3.1792      0.420     -7.574      0.000      -4.002      -2.356
+C(ConceptualQuestionType)[T.Debate]                     -2.3069      0.393     -5.877      0.000      -3.076      -1.537
+C(ConceptualQuestionType)[T.Definition]                 -2.9888      0.796     -3.757      0.000      -4.548      -1.429
+C(ConceptualQuestionType)[T.Description]                -2.6159      0.522     -5.014      0.000      -3.639      -1.593
+C(ConceptualQuestionType)[T.Directional]                -3.8916      0.607     -6.414      0.000      -5.081      -2.702
+C(ConceptualQuestionType)[T.Empowerment]                 0.4478      0.619      0.724      0.469      -0.765       1.660
+C(ConceptualQuestionType)[T.Experience]                 -1.5035      0.671     -2.242      0.025      -2.818      -0.189
+C(ConceptualQuestionType)[T.Forecast]                   -2.9075      0.668     -4.352      0.000      -4.217      -1.598
+C(ConceptualQuestionType)[T.Goal_orientation]           -1.0229      0.686     -1.491      0.136      -2.368       0.322
+C(ConceptualQuestionType)[T.Instrumental_Procedural]    -2.8212      0.438     -6.441      0.000      -3.680      -1.963
+C(ConceptualQuestionType)[T.Personal_Practices]         -4.2370      0.555     -7.637      0.000      -5.325      -3.149
+C(ConceptualQuestionType)[T.Purpose]                    -0.9326      0.842     -1.107      0.268      -2.584       0.719
+C(ConceptualQuestionType)[T.Suggestion]                 -2.0879      0.458     -4.560      0.000      -2.986      -1.190
+C(ConceptualQuestionType)[T.Yes_No_factual]             -1.6188      0.365     -4.439      0.000      -2.334      -0.904
+C(ConceptualQuestionType)[T.Yes_No_non-factual]         -0.3962      0.356     -1.114      0.265      -1.093       0.301
+C(ConceptualQuestionType)[T.Yes_No_personal]            -2.1995      0.541     -4.063      0.000      -3.261      -1.138
+==============================================================================
+Omnibus:                     3584.715   Durbin-Watson:                   1.878
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            37893.461
+Skew:                           2.726   Prob(JB):                         0.00
+Kurtosis:                      14.033   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+ANOVA results:
+                                  sum_sq      df          F        PR(>F)
+C(ConceptualQuestionType)    7878.208347    18.0  11.002869  9.517563e-32
+Residual                   238114.441022  5986.0        NaN           NaN
+
+General Linear Model for Factor 3:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Q("Factor 3")   R-squared:                       0.040
+Model:                            OLS   Adj. R-squared:                  0.037
+Method:                 Least Squares   F-statistic:                     13.78
+Date:                Mon, 24 Feb 2025   Prob (F-statistic):           1.86e-41
+Time:                        03:10:17   Log-Likelihood:                -16331.
+No. Observations:                6005   AIC:                         3.270e+04
+Df Residuals:                    5986   BIC:                         3.283e+04
+Df Model:                          18                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================
+                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------
+Intercept                                                1.1109      0.173      6.423      0.000       0.772       1.450
+C(ConceptualQuestionType)[T.Causal_antecedent]          -1.4415      0.268     -5.380      0.000      -1.967      -0.916
+C(ConceptualQuestionType)[T.Causal_consequence]         -0.0148      0.304     -0.049      0.961      -0.610       0.581
+C(ConceptualQuestionType)[T.Concept_completion]         -2.1778      0.245     -8.898      0.000      -2.658      -1.698
+C(ConceptualQuestionType)[T.Debate]                     -1.4449      0.229     -6.313      0.000      -1.894      -0.996
+C(ConceptualQuestionType)[T.Definition]                 -2.1185      0.464     -4.567      0.000      -3.028      -1.209
+C(ConceptualQuestionType)[T.Description]                -1.7854      0.304     -5.870      0.000      -2.382      -1.189
+C(ConceptualQuestionType)[T.Directional]                -2.4605      0.354     -6.955      0.000      -3.154      -1.767
+C(ConceptualQuestionType)[T.Empowerment]                 0.5506      0.361      1.527      0.127      -0.156       1.258
+C(ConceptualQuestionType)[T.Experience]                 -1.4531      0.391     -3.717      0.000      -2.220      -0.687
+C(ConceptualQuestionType)[T.Forecast]                   -1.8339      0.390     -4.708      0.000      -2.598      -1.070
+C(ConceptualQuestionType)[T.Goal_orientation]           -0.7823      0.400     -1.956      0.051      -1.566       0.002
+C(ConceptualQuestionType)[T.Instrumental_Procedural]    -1.5868      0.255     -6.213      0.000      -2.088      -1.086
+C(ConceptualQuestionType)[T.Personal_Practices]         -2.2169      0.323     -6.854      0.000      -2.851      -1.583
+C(ConceptualQuestionType)[T.Purpose]                    -0.6134      0.491     -1.249      0.212      -1.576       0.349
+C(ConceptualQuestionType)[T.Suggestion]                 -1.5414      0.267     -5.774      0.000      -2.065      -1.018
+C(ConceptualQuestionType)[T.Yes_No_factual]             -1.0734      0.213     -5.048      0.000      -1.490      -0.657
+C(ConceptualQuestionType)[T.Yes_No_non-factual]         -0.3247      0.207     -1.566      0.117      -0.731       0.082
+C(ConceptualQuestionType)[T.Yes_No_personal]            -1.3026      0.316     -4.127      0.000      -1.921      -0.684
+==============================================================================
+Omnibus:                     3823.122   Durbin-Watson:                   1.875
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            50447.597
+Skew:                           2.883   Prob(JB):                         0.00
+Kurtosis:                      15.976   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+ANOVA results:
+                                 sum_sq      df          F        PR(>F)
+C(ConceptualQuestionType)   3353.518234    18.0  13.776995  1.864813e-41
+Residual                   80948.793437  5986.0        NaN           NaN
+
+General Linear Model for Factor 4:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Q("Factor 4")   R-squared:                       0.015
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     5.179
+Date:                Mon, 24 Feb 2025   Prob (F-statistic):           4.87e-12
+Time:                        03:10:17   Log-Likelihood:                -13966.
+No. Observations:                6005   AIC:                         2.797e+04
+Df Residuals:                    5986   BIC:                         2.810e+04
+Df Model:                          18                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================
+                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------
+Intercept                                                0.5130      0.117      4.397      0.000       0.284       0.742
+C(ConceptualQuestionType)[T.Causal_antecedent]          -0.5005      0.181     -2.770      0.006      -0.855      -0.146
+C(ConceptualQuestionType)[T.Causal_consequence]         -0.5032      0.205     -2.457      0.014      -0.905      -0.102
+C(ConceptualQuestionType)[T.Concept_completion]         -0.7281      0.165     -4.411      0.000      -1.052      -0.405
+C(ConceptualQuestionType)[T.Debate]                     -0.7365      0.154     -4.771      0.000      -1.039      -0.434
+C(ConceptualQuestionType)[T.Definition]                 -0.9973      0.313     -3.188      0.001      -1.611      -0.384
+C(ConceptualQuestionType)[T.Description]                -0.5606      0.205     -2.732      0.006      -0.963      -0.158
+C(ConceptualQuestionType)[T.Directional]                -1.0373      0.239     -4.347      0.000      -1.505      -0.570
+C(ConceptualQuestionType)[T.Empowerment]                 0.3421      0.243      1.406      0.160      -0.135       0.819
+C(ConceptualQuestionType)[T.Experience]                 -0.7682      0.264     -2.913      0.004      -1.285      -0.251
+C(ConceptualQuestionType)[T.Forecast]                   -0.9031      0.263     -3.437      0.001      -1.418      -0.388
+C(ConceptualQuestionType)[T.Goal_orientation]           -0.2799      0.270     -1.037      0.300      -0.809       0.249
+C(ConceptualQuestionType)[T.Instrumental_Procedural]    -0.4674      0.172     -2.713      0.007      -0.805      -0.130
+C(ConceptualQuestionType)[T.Personal_Practices]         -1.2143      0.218     -5.566      0.000      -1.642      -0.787
+C(ConceptualQuestionType)[T.Purpose]                    -0.5599      0.331     -1.690      0.091      -1.209       0.090
+C(ConceptualQuestionType)[T.Suggestion]                 -0.7673      0.180     -4.261      0.000      -1.120      -0.414
+C(ConceptualQuestionType)[T.Yes_No_factual]             -0.5660      0.143     -3.947      0.000      -0.847      -0.285
+C(ConceptualQuestionType)[T.Yes_No_non-factual]         -0.2034      0.140     -1.455      0.146      -0.477       0.071
+C(ConceptualQuestionType)[T.Yes_No_personal]            -0.6819      0.213     -3.203      0.001      -1.099      -0.265
+==============================================================================
+Omnibus:                     5627.279   Durbin-Watson:                   1.937
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           313421.240
+Skew:                           4.422   Prob(JB):                         0.00
+Kurtosis:                      37.270   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+ANOVA results:
+                                 sum_sq      df         F        PR(>F)
+C(ConceptualQuestionType)    573.477045    18.0  5.178655  4.871676e-12
+Residual                   36826.736350  5986.0       NaN           NaN
+
+General Linear Model for Factor 5:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Q("Factor 5")   R-squared:                       0.045
+Model:                            OLS   Adj. R-squared:                  0.042
+Method:                 Least Squares   F-statistic:                     15.66
+Date:                Mon, 24 Feb 2025   Prob (F-statistic):           4.48e-48
+Time:                        03:10:17   Log-Likelihood:                -17995.
+No. Observations:                6005   AIC:                         3.603e+04
+Df Residuals:                    5986   BIC:                         3.615e+04
+Df Model:                          18                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================
+                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------
+Intercept                                                1.1931      0.228      5.228      0.000       0.746       1.640
+C(ConceptualQuestionType)[T.Causal_antecedent]          -0.4908      0.353     -1.389      0.165      -1.184       0.202
+C(ConceptualQuestionType)[T.Causal_consequence]         -1.9196      0.401     -4.791      0.000      -2.705      -1.134
+C(ConceptualQuestionType)[T.Concept_completion]         -2.4860      0.323     -7.699      0.000      -3.119      -1.853
+C(ConceptualQuestionType)[T.Debate]                     -0.9549      0.302     -3.163      0.002      -1.547      -0.363
+C(ConceptualQuestionType)[T.Definition]                 -2.0555      0.612     -3.359      0.001      -3.255      -0.856
+C(ConceptualQuestionType)[T.Description]                -2.0326      0.401     -5.065      0.000      -2.819      -1.246
+C(ConceptualQuestionType)[T.Directional]                -2.8880      0.467     -6.188      0.000      -3.803      -1.973
+C(ConceptualQuestionType)[T.Empowerment]                 1.8653      0.476      3.920      0.000       0.933       2.798
+C(ConceptualQuestionType)[T.Experience]                 -1.6583      0.516     -3.215      0.001      -2.669      -0.647
+C(ConceptualQuestionType)[T.Forecast]                   -2.3247      0.514     -4.524      0.000      -3.332      -1.317
+C(ConceptualQuestionType)[T.Goal_orientation]           -0.1863      0.528     -0.353      0.724      -1.221       0.848
+C(ConceptualQuestionType)[T.Instrumental_Procedural]    -2.0387      0.337     -6.051      0.000      -2.699      -1.378
+C(ConceptualQuestionType)[T.Personal_Practices]         -2.5988      0.427     -6.090      0.000      -3.435      -1.762
+C(ConceptualQuestionType)[T.Purpose]                    -0.8608      0.648     -1.329      0.184      -2.131       0.409
+C(ConceptualQuestionType)[T.Suggestion]                 -1.5334      0.352     -4.354      0.000      -2.224      -0.843
+C(ConceptualQuestionType)[T.Yes_No_factual]             -1.8557      0.281     -6.615      0.000      -2.406      -1.306
+C(ConceptualQuestionType)[T.Yes_No_non-factual]          0.0786      0.273      0.287      0.774      -0.458       0.615
+C(ConceptualQuestionType)[T.Yes_No_personal]            -1.6474      0.416     -3.956      0.000      -2.464      -0.831
+==============================================================================
+Omnibus:                     3613.630   Durbin-Watson:                   1.907
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            39233.340
+Skew:                           2.745   Prob(JB):                         0.00
+Kurtosis:                      14.255   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+ANOVA results:
+                                  sum_sq      df          F        PR(>F)
+C(ConceptualQuestionType)    6633.977435    18.0  15.658414  4.475771e-48
+Residual                   140893.323904  5986.0        NaN           NaN
+
+General Linear Model for Factor 6:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Q("Factor 6")   R-squared:                       0.039
+Model:                            OLS   Adj. R-squared:                  0.036
+Method:                 Least Squares   F-statistic:                     13.50
+Date:                Mon, 24 Feb 2025   Prob (F-statistic):           1.72e-40
+Time:                        03:10:17   Log-Likelihood:                -16543.
+No. Observations:                6005   AIC:                         3.312e+04
+Df Residuals:                    5986   BIC:                         3.325e+04
+Df Model:                          18                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================
+                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------
+Intercept                                                1.0553      0.179      5.890      0.000       0.704       1.407
+C(ConceptualQuestionType)[T.Causal_antecedent]          -0.4465      0.278     -1.609      0.108      -0.991       0.098
+C(ConceptualQuestionType)[T.Causal_consequence]         -1.5504      0.315     -4.928      0.000      -2.167      -0.934
+C(ConceptualQuestionType)[T.Concept_completion]         -1.7685      0.254     -6.975      0.000      -2.266      -1.271
+C(ConceptualQuestionType)[T.Debate]                     -0.5669      0.237     -2.391      0.017      -1.032      -0.102
+C(ConceptualQuestionType)[T.Definition]                 -1.2010      0.481     -2.499      0.012      -2.143      -0.259
+C(ConceptualQuestionType)[T.Description]                -0.8775      0.315     -2.785      0.005      -1.495      -0.260
+C(ConceptualQuestionType)[T.Directional]                -1.5816      0.366     -4.316      0.000      -2.300      -0.863
+C(ConceptualQuestionType)[T.Empowerment]                 1.6736      0.374      4.479      0.000       0.941       2.406
+C(ConceptualQuestionType)[T.Experience]                 -0.8981      0.405     -2.218      0.027      -1.692      -0.104
+C(ConceptualQuestionType)[T.Forecast]                   -1.9331      0.404     -4.790      0.000      -2.724      -1.142
+C(ConceptualQuestionType)[T.Goal_orientation]            0.2538      0.414      0.613      0.540      -0.558       1.066
+C(ConceptualQuestionType)[T.Instrumental_Procedural]    -1.5903      0.265     -6.011      0.000      -2.109      -1.072
+C(ConceptualQuestionType)[T.Personal_Practices]         -1.5133      0.335     -4.516      0.000      -2.170      -0.856
+C(ConceptualQuestionType)[T.Purpose]                    -0.3458      0.509     -0.680      0.497      -1.343       0.652
+C(ConceptualQuestionType)[T.Suggestion]                 -1.3731      0.277     -4.965      0.000      -1.915      -0.831
+C(ConceptualQuestionType)[T.Yes_No_factual]             -1.9647      0.220     -8.919      0.000      -2.397      -1.533
+C(ConceptualQuestionType)[T.Yes_No_non-factual]         -0.7044      0.215     -3.280      0.001      -1.125      -0.283
+C(ConceptualQuestionType)[T.Yes_No_personal]            -1.7234      0.327     -5.271      0.000      -2.364      -1.082
+==============================================================================
+Omnibus:                     3688.259   Durbin-Watson:                   1.878
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            44627.862
+Skew:                           2.777   Prob(JB):                         0.00
+Kurtosis:                      15.146   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+ANOVA results:
+                                 sum_sq      df          F        PR(>F)
+C(ConceptualQuestionType)   3526.894360    18.0  13.501965  1.724163e-40
+Residual                   86867.973013  5986.0        NaN           NaN
+
+General Linear Model for Factor 7:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Q("Factor 7")   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     13.23
+Date:                Mon, 24 Feb 2025   Prob (F-statistic):           1.50e-39
+Time:                        03:10:17   Log-Likelihood:                -14221.
+No. Observations:                6005   AIC:                         2.848e+04
+Df Residuals:                    5986   BIC:                         2.861e+04
+Df Model:                          18                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================
+                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------
+Intercept                                                0.9646      0.122      7.925      0.000       0.726       1.203
+C(ConceptualQuestionType)[T.Causal_antecedent]          -1.3654      0.189     -7.241      0.000      -1.735      -0.996
+C(ConceptualQuestionType)[T.Causal_consequence]         -1.1534      0.214     -5.397      0.000      -1.572      -0.734
+C(ConceptualQuestionType)[T.Concept_completion]         -1.5901      0.172     -9.232      0.000      -1.928      -1.252
+C(ConceptualQuestionType)[T.Debate]                     -1.4257      0.161     -8.851      0.000      -1.741      -1.110
+C(ConceptualQuestionType)[T.Definition]                 -1.6358      0.326     -5.011      0.000      -2.276      -0.996
+C(ConceptualQuestionType)[T.Description]                -1.3992      0.214     -6.537      0.000      -1.819      -0.980
+C(ConceptualQuestionType)[T.Directional]                -1.0835      0.249     -4.352      0.000      -1.572      -0.595
+C(ConceptualQuestionType)[T.Empowerment]                 0.5629      0.254      2.218      0.027       0.065       1.060
+C(ConceptualQuestionType)[T.Experience]                 -1.1957      0.275     -4.346      0.000      -1.735      -0.656
+C(ConceptualQuestionType)[T.Forecast]                   -1.2875      0.274     -4.696      0.000      -1.825      -0.750
+C(ConceptualQuestionType)[T.Goal_orientation]           -1.2132      0.281     -4.311      0.000      -1.765      -0.661
+C(ConceptualQuestionType)[T.Instrumental_Procedural]    -0.9324      0.180     -5.188      0.000      -1.285      -0.580
+C(ConceptualQuestionType)[T.Personal_Practices]         -1.8940      0.228     -8.320      0.000      -2.340      -1.448
+C(ConceptualQuestionType)[T.Purpose]                    -0.8597      0.346     -2.487      0.013      -1.537      -0.182
+C(ConceptualQuestionType)[T.Suggestion]                 -0.5751      0.188     -3.061      0.002      -0.943      -0.207
+C(ConceptualQuestionType)[T.Yes_No_factual]             -0.9943      0.150     -6.644      0.000      -1.288      -0.701
+C(ConceptualQuestionType)[T.Yes_No_non-factual]         -0.5508      0.146     -3.776      0.000      -0.837      -0.265
+C(ConceptualQuestionType)[T.Yes_No_personal]            -1.2023      0.222     -5.413      0.000      -1.638      -0.767
+==============================================================================
+Omnibus:                     3103.742   Durbin-Watson:                   1.850
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            24470.935
+Skew:                           2.362   Prob(JB):                         0.00
+Kurtosis:                      11.688   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+ANOVA results:
+                                 sum_sq      df          F        PR(>F)
+C(ConceptualQuestionType)   1595.357935    18.0  13.234116  1.502205e-39
+Residual                   40089.201178  5986.0        NaN           NaN
